@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: blueviolet; */
+    text-decoration: none;
+}
+
+body {
+    /* background-color: transparent; */
+    background: white;
+    
+    /* background-size: cover; */
+    /* background-color: antiquewhite; */
+}
+
+main {
+    background-image: url("images/fundo.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+@font-face {
+    font-family: nuvel;
+    src: url("fonts/Nuvel.ttf") format("truetype");
+}
+
+h1 {
+    font-size: 150px;
+    font-family: nuvel;
+    font-weight: lighter;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: #461780;
+    align-items: center;
+}
+
+header * {
+    background-color: transparent;
+}
+
+nav {
+    margin-right: 50px;
+}
+
+header img {
+    width: 80px;
+    margin: 15px;
+    margin-left: 120px;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    align-items: center;
+}
+
+header ul li a {
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+header ul li a:hover {
+    color: blueviolet;
+    background-color: antiquewhite;
+    transition: all 200ms;
+}
+
+main {
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+main div {
+    margin: 400px auto;
+    /* margin-top: 400px; */
+    text-align: center;
+}
+
+.seção {
+    /* background-color: white; */
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 0;
+    display: flex;
+}
+
+.seção * {
+    /* background-color: white; */
+}
+
+.porta-imagem {
+    width: 600px;
+    height: 400px;
+    min-width: 600px;
+    overflow: hidden;
+}
+
+.porta-imagem img {
+    position: relative;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.seção div {
+    color: #461780;
+    margin: 20px;
+}
+
+.seção * {
+    color: #461780;
+}
+
+.seção div h2 {
+    font-size: 50px;
+}
+
+.seção div h3 {
+    margin-top: 20px;
+}
+
+.seção div p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: antiquewhite;
+    color: #461780;
+    text-align: center;
+    padding: 40px;
+}
+
+footer * {
+    background-color: antiquewhite;
+}
+
+footer h2 {
+    font-size: 40px;
+}
