@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Criação de sites, imagens para divulgação e propaganda direcionada.">
     <link rel="stylesheet" href="styles.css">
+    <script src="js/checkbox.js"></script>
     <title>Lite soluções</title>
 </head>
 
@@ -17,9 +18,9 @@
             <input type="checkbox" name="menu" id="check">
             <label for="check">&#9776</label>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li><a href="#" onclick="clique()">Home</a></li>
+                <li><a href="#projetos" onclick="clique()">Projetos</a></li>
+                <li><a href="#" onclick="clique()">Sobre</a></li>
             </ul>
         </nav>
     </header>
@@ -41,7 +42,9 @@
                     Nós cuidamos da criação de um site moderno, elegante e eficiente. Tudo para o seu negócio se
                     tornar mais visível.
                 </p>
-                <a href="#">+ Leia mais</a>
+                <div class="caixa-botão">
+                    <a href="#">+ Leia mais</a>
+                </div>
             </div>
         </div>
         <div class="seção">
@@ -55,7 +58,9 @@
                     Criamos aquela imagem chamativa para divulgar o seu produto ou serviço
                     em suas redes sociais, de forma atraente e profissional.
                 </p>
-                <a href="#">+ Leia mais</a>
+                <div class="caixa-botão">
+                    <a href="#">+ Leia mais</a>
+                </div>
             </div>
 
 
@@ -67,10 +72,12 @@
             <div class="comporta-texto">
                 <h2>Anuncios</h2>
                 <h3><strong>Facebook, Instagram, web</strong></h3>
-                <p>Dibulgamos seu serviço online, através de anúncios direcionados no facebook, instagram e sites da
+                <p>Divulgamos seu serviço online, através de anúncios direcionados no facebook, instagram e sites da
                     web.
                 </p>
-                <a href="#">+ Leia mais</a>
+                <div class="caixa-botão">
+                    <a href="#">+ Leia mais</a>
+                </div>
             </div>
         </div>
     </section>
