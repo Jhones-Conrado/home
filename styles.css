@@ -255,6 +255,7 @@ footer h2 {
     .seção .porta-imagem {
         max-width: 900px;
         overflow: hidden;
+        margin: 0 50px;
     }
 
     .seção .porta-imagem img {
