@@ -79,7 +79,7 @@ header nav ul li a {
 
 main {
     color: antiquewhite;
-    
+
     padding: 300px 0;
     text-align: center;
 }
@@ -191,14 +191,15 @@ footer {
 
 footer * {
     background-color: antiquewhite;
+    color: #461780;
 }
 
 footer h2 {
     font-size: 40px;
 }
 
-@media(min-width: 480px) {
-    
+@media(min-width: 540px) {
+
     header nav label {
         display: none;
     }
@@ -256,6 +257,7 @@ footer h2 {
         max-width: 900px;
         overflow: hidden;
         margin: 0 50px;
+        height: 400px;
     }
 
     .seção .porta-imagem img {
@@ -263,6 +265,7 @@ footer h2 {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
+        width: auto;
     }
 
     .content {
