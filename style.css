@@ -155,3 +155,7 @@ footer a p {
 #quinta {
   flex-flow: column;
 }
+
+#tags {
+  font-size: 0px;
+}
