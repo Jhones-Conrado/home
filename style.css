@@ -32,6 +32,10 @@ header {
   margin-bottom: 90px;
 }
 
+header a {
+  margin: auto;
+}
+
 section {
   margin: 25px 0;
   padding: 0 25px;
@@ -48,6 +52,13 @@ section p {
 footer {
   margin: 80px 0;
   display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+footer p {
+  margin-top: 20px;
+  font-weight: bold;
 }
 
 footer a {
@@ -60,6 +71,7 @@ footer a {
 
 footer a p {
   font-family: sans-serif;
+  font-weight: normal;
   margin: auto;
   text-decoration: none;
   color: #00ffffff;
@@ -133,6 +145,43 @@ footer a p {
   color: #00ffffff;
   margin: auto;
   font-size: 11px;
+}
+
+.content {
+  flex-flow: column;
+}
+
+.titulo-conteudo h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.titulo-conteudo h2 {
+  font-size: 25px;
+}
+
+.caixa-texto h3{
+  margin-top: 30px;
+  font-size: 30px;
+  background: linear-gradient(90deg, rgba(255,255,0,1) 0%, rgba(255,183,0,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(255,255,0);
+}
+
+.caixa-foto-intro {
+  border-radius: 100%;
+  overflow: hidden;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.caixa-foto-intro img {
+  height: 100%;
 }
 
 #primeira {
