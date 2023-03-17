@@ -194,6 +194,8 @@ footer a p {
 }
 
 #terceira {
+  display: flex;
+  flex-flow: column;
   text-align: center;
 }
 
